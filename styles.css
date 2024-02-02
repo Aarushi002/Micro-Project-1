@@ -1,0 +1,177 @@
+
+@import url('https://fonts.googleapis.com/css?family=Tangerine:bold,bolditalic|Inconsolata:italic|Droid+Sans');
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.upper{
+    background-color:#FFCD9E ;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left{
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.left h1 {
+    margin-bottom: 5vh;
+    font-size: 4vh;
+    margin-left: 15vh;
+}
+
+.left h2{
+    font-size: 24px;
+    font-size: 7vh;
+    margin-left: 15vh;
+    margin-top: 5vh;
+    
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.left h4{
+    margin-left: 15vh;
+}
+
+.left p {
+    font-size: 16px;
+    margin-bottom: 25px;
+    font-size: 4vh;
+    color: #4a4848;
+    margin-left: 15vh;
+
+   
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+
+.inputBox {
+    margin-bottom: 20px;
+}
+.inputBox p{
+    color: white;
+    font-size: smaller;
+    padding-top: 10px;
+    padding-left: 30px;
+}
+
+.inputBox input {
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    border-width: 0.5vh;
+    width: 35%;
+    margin-top: 5vh;
+    margin-left: 15vh; 
+}
+
+.inputBox p{
+    padding-top: 25px;
+}
+
+.btn {
+    display: inline-block;
+    background-color:black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: rgb(114, 111, 111);
+}
+
+/* .right{
+    border: 5px solid black;
+} */
+
+.image{
+    position: relative;
+    bottom: 30px;
+    right: 70px;
+}
+
+footer{
+    background-color: #282828;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fleft{
+    padding-top: 6vh;
+    padding-left: 15vw;
+}
+
+.fleft ul{
+    list-style-type: none;
+    color: white;
+}
+
+.fleft ul li{
+    margin-bottom: 10px;
+}
+
+.fright{
+    padding-right: 15vw;
+    padding-top: 6vh;
+}
+
+.fright ul{
+    list-style-type: none;
+    color: white;
+}
+
+.fright ul li{
+    margin-bottom: 10px;
+}
+
+.fab {
+   
+    color: rgb(243, 198, 143);
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+
+.fright li:nth-child(2) {
+    position: relative;
+   right: 95px;
+  }
+
+  .fright li:nth-child(3) {
+    position: relative;
+   left: 25px;
+  }
+  .fright li:nth-child(4) {
+    position: relative;
+    right: 50px;
+    top: 30px;
+  }
